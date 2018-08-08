@@ -17,7 +17,7 @@
 ### How to install
 
 ```
-pip3 install https://github.com/asinghani/spotify_tui
+pip3 install git+git://github.com/asinghani/spotify_tui
 ```
 
 ### How to use
