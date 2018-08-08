@@ -2,9 +2,9 @@
 
 ![Screenshot](Screenshot.png)
 
-## Purpose
+### Purpose
 
-`curses`-based user interface to allow controlling and monitoring Spotify from the command line using only the keyboard. It can be used in a window as small as 40x5 characters (14 character height required for full functionality).
+`curses`-based user interface to allow controlling and monitoring Spotify from the command line using only the keyboard. It can be used in a window as small as 40x5 characters (14 character height required for full functionality). Currently only supports macOS due to AppleScript requirement to integrate with Spotify.
 
 ### Features
 
@@ -42,3 +42,6 @@ Useful Key Commands:
 | Quit              | Q     |
 | Show Help Menu    | H     |
 
+### Contributing
+
+Feel free to open an issue or pull request if there are any issues or missing features in this software (or to add Linux / Windows support).
