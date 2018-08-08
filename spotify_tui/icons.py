@@ -1,0 +1,9 @@
+# UTF-8 emoji icons
+PLAY = "\u25B6 " #\uFE0F"
+PAUSE = "❚❚" #\u23F8\uFE0F"
+STOP = "\u25FB" #\uFE0F"
+
+REPEAT = "\U0001F501"
+SHUFFLE = "\U0001F500"
+
+SPEAKER = "\U0001F508"

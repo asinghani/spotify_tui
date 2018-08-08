@@ -1,0 +1,48 @@
+keys:
+- Play/Pause: P/Space
+- Volume Up: +/=
+- Vol Down: -/_
+- Next: N, Rt
+- Prev: B, Lt
+- Shuffle: S
+- Repeat: R
+- Reset: C
+- Quit: Q
+- Toggle Scroll: Z
+- Help: H (if possible)
+
+Help Menu:
+----------------------------------------
+--------------------
+Play:       (Space) | Replay Track: (C)
+Next Track: (N)     | Prev Track:   (B)
+Shuffle:    (S)     | Repeat:       (R)
+Volume Up:  (+)     | Volume Down:  (-)
+Scroll:     (Z)     | Quit:         (Q) 
+
+
+
+
+-------------------------------------------
+---Spotify
+  ┌────────┬──────────────────┐
+--│ Track  │ 9999999999999999 │--
+  ├────────┼──────────────────┤
+--│ Artist │ 9999999999999999 │--
+  ├────────┼──────────────────┤
+--│ Album  │ 9999999999999999 │--
+  └────────┴──────────────────┘
+
+--> playing 01:11 of 02:34
+--[========>                  ]--
+--> Volume: 10
+--[========>                  ]--
+--Status: [r] [s]     (H) Help--
+
+height:
+>=14 = full
+>=12 = hide volume
+>=10 = hide album
+>=8 = hide artist
+>=5 = hide position
+

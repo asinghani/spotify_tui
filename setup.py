@@ -1,12 +1,16 @@
 from setuptools import setup
 
 setup(
-    name = "mac_spotify_terminal",
+    name = "spotify_tui",
     version = "1.0.0",
-    packages = ["mac_spotify_terminal"],
+    packages = ["spotify_tui"],
     entry_points = {
         "console_scripts": [
-            "spotify_tui = mac_spotify_terminal.__main__:main"
+            "spotify_tui = spotify_tui.__main__:main"
         ]
-    }
+    },
+    install_requires=[
+        "py-applescript",
+        "pyobjc"
+    ]
 )
